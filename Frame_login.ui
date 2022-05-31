@@ -181,15 +181,19 @@ background: none;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/cct/udg logo blanco png.png);
-background: none;
-</string>
+     <string notr="true">background-color: None;</string>
     </property>
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap>Assets/udg logo blanco png.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
-   <widget class="QLabel" name="label_6">
+   <widget class="QLabel" name="foto_perfil">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -199,15 +203,19 @@ background: none;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border-image: url(:/cct/error.jpg);
-background: none;
-border-radius: 15px;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
     </property>
+    <property name="pixmap">
+     <pixmap>Assets/error.jpg</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
    </widget>
-   <widget class="QLabel" name="label_7">
+   <widget class="QLabel" name="nombres">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -223,10 +231,10 @@ font: 12pt;
 </string>
     </property>
     <property name="text">
-     <string>Nombres</string>
+     <string/>
     </property>
    </widget>
-   <widget class="QLabel" name="label_8">
+   <widget class="QLabel" name="apellidos">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -245,7 +253,7 @@ font: 12pt;
      <string>Apellidos</string>
     </property>
    </widget>
-   <widget class="QLabel" name="label_9">
+   <widget class="QLabel" name="tipo">
     <property name="geometry">
      <rect>
       <x>260</x>
@@ -274,12 +282,16 @@ font: 10pt;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: none;
-border-image: url(:/cct/configuraciones.png);
-border-radius: 15px;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Assets/configuraciones.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_11">
@@ -311,12 +323,16 @@ font: 12pt;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: none;
-border-image: url(:/cct/usuarios.png);
-border-radius: 15px;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Assets/usuarios.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_13">
@@ -329,12 +345,16 @@ border-radius: 15px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: none;
-border-image: url(:/cct/Update.png);
-border-radius: 15px;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Assets/Update.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QLabel" name="label_14">
@@ -347,12 +367,16 @@ border-radius: 15px;</string>
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: none;
-border-image: url(:/cct/Clock.png);
-border-radius: 15px;</string>
+     <string notr="true"/>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Assets/Clock.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_2">
@@ -530,12 +554,16 @@ color: white;
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">background: none;
-border: none;
-border-image: url(:/cct/next.png);</string>
+     <string notr="true">background-color: none;</string>
     </property>
     <property name="text">
      <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>Assets/next.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButton_7">

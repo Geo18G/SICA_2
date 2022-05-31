@@ -14,14 +14,62 @@ class Database:
         print("conexion correcta")
 
     def select_user(self, codigo):
-        sql = 'SELECT id, codigo, fecha FROM usuarios WHERE codigo = {}'.format(codigo)
+        sql = 'SELECT id_codigo, nombre, apellidos, tipo FROM usuarios WHERE id_codigo = {}'.format(codigo)
         try:
             self.cursor.execute(sql)
             user = self.cursor.fetchone()
             
-            print("Id: ", user[0])
-            print("Código: ", user[1])
-            print("Fecha: ", user[2])
+            id= (user[0])
+            print(id)
+            nombres= (user[1])
+            print(nombres)
+            apellidos= (user[2])
+            print(apellidos)
+            tipo= (user[3])
+            print(tipo)
+
+            return True
+        except:
+            print("error, usuario no encontrado")
+            return False
+
+    def select_nombres(self, codigo):
+        sql = 'SELECT nombre FROM usuarios WHERE id_codigo = {}'.format(codigo)
+        try:
+            self.cursor.execute(sql)
+            user = self.cursor.fetchone()
+            
+            nombres= (user[0])
+            print(nombres)
+
+            return True
+        except:
+            print("error, usuario no encontrado")
+            return False
+    
+    def select_apellidos(self, codigo):
+        sql = 'SELECT apellidos FROM usuarios WHERE id_codigo = {}'.format(codigo)
+        try:
+            self.cursor.execute(sql)
+            user = self.cursor.fetchone()
+            
+            nombres= (user[0])
+            print(nombres)
+
+            return True
+        except:
+            print("error, usuario no encontrado")
+            return False
+        
+    def select_tipo(self, codigo):
+        sql = 'SELECT tipo FROM usuarios WHERE id_codigo = {}'.format(codigo)
+        try:
+            self.cursor.execute(sql)
+            user = self.cursor.fetchone()
+        
+            nombres= (user[0])
+            print(nombres)
+
             return True
         except:
             print("error, usuario no encontrado")

@@ -190,7 +190,7 @@ font: family &quot;Times new Roman&quot;;</string>
         <string/>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_2">
+      <widget class="QPushButton" name="borrar">
        <property name="geometry">
         <rect>
          <x>660</x>
@@ -342,7 +342,7 @@ background-color: rgb(171, 171, 171);
         <string>3</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_6">
+      <widget class="QPushButton" name="Number_4">
        <property name="geometry">
         <rect>
          <x>480</x>
@@ -380,7 +380,7 @@ background-color: rgb(171, 171, 171);
         <string>4</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_7">
+      <widget class="QPushButton" name="Number_5">
        <property name="geometry">
         <rect>
          <x>570</x>
@@ -418,7 +418,7 @@ background-color: rgb(171, 171, 171);
         <string>5</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_8">
+      <widget class="QPushButton" name="Number_6">
        <property name="geometry">
         <rect>
          <x>660</x>
@@ -456,7 +456,7 @@ background-color: rgb(171, 171, 171);
         <string>6</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_9">
+      <widget class="QPushButton" name="Number_7">
        <property name="geometry">
         <rect>
          <x>480</x>
@@ -520,7 +520,7 @@ background-color: rgb(171, 171, 171);
         <string>Acerptar</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_10">
+      <widget class="QPushButton" name="Number_8">
        <property name="geometry">
         <rect>
          <x>570</x>
@@ -558,7 +558,7 @@ background-color: rgb(171, 171, 171);
         <string>8</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_12">
+      <widget class="QPushButton" name="Number_9">
        <property name="geometry">
         <rect>
          <x>660</x>
@@ -596,7 +596,7 @@ background-color: rgb(171, 171, 171);
         <string>9</string>
        </property>
       </widget>
-      <widget class="QPushButton" name="pushButton_13">
+      <widget class="QPushButton" name="Number_0">
        <property name="geometry">
         <rect>
          <x>480</x>
@@ -781,7 +781,7 @@ background: none;
  </resources>
  <connections>
   <connection>
-   <sender>pushButton_2</sender>
+   <sender>borrar</sender>
    <signal>clicked()</signal>
    <receiver>ID</receiver>
    <slot>clear()</slot>
